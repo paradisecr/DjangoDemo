@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Test HTML</title>
+</head>
+<body>
+    <h1>Hi, this is Rui Cao.</h1>
+    <table border="1">
+        <thead>
+            <th>姓名</th>
+            <th>段位</th>
+        </thead>
+        <tbody>
+            {% for line in data %}
+                <tr>
+                    <td>{{ line.user }}</td>
+                    <td>{{ line.level }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
