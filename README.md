@@ -27,3 +27,4 @@ http://127.0.0.1:8000
 
 效果如下：
 ![image](https://raw.githubusercontent.com/paradisecr/DjangoDemo/master/static/img/main_page.png)
+![image](https://raw.githubusercontent.com/paradisecr/DjangoDemo/master/static/img/result.png)
