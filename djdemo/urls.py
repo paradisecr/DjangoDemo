@@ -17,10 +17,12 @@ from django.conf.urls import url
 from django.contrib import admin
 
 from testapp import views
+from testapp.controller import index
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'test', views.test),
+    url(r'test', index.test),
     url(r'list', views.list),
     url(r'addUser', views.addUser),
+    url(r'^$', index.index)
 ]
